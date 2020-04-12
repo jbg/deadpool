@@ -16,7 +16,7 @@ all-features = true
 deadpool = { path = "../", version = "0.5.0", default-features = false, features = ["managed"] }
 async-trait = "0.1.17"
 futures = "0.3.1"
-lapin = { version = "0.38.0", default-features = false }
+lapin = { version = "1.0.0-alpha1", default-features = false }
 log = "0.4"
 # only required when using the config feature
 config-crate = { package = "config", version = "0.10.1", default-features = false, optional = true }
